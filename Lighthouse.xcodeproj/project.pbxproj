@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		D0424EBF2F7980860005F44A /* Lighthouse.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lighthouse.xcodeproj; sourceTree = "<group>"; };
+		D0424ED42F79818E0005F44A /* Lighthouse.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lighthouse.xcodeproj; sourceTree = "<group>"; };
+		D05115162F7AC5E20045E30D /* Lighthouse.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lighthouse.xcodeproj; sourceTree = "<group>"; };
+		D05115572F7B20B80045E30D /* Lighthouse.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lighthouse.xcodeproj; sourceTree = "<group>"; };
 		D07A43F82F798049006CB528 /* Lighthouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lighthouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FCA9122F798F6A0036C1A7 /* Lighthouse.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lighthouse.xcodeproj; sourceTree = "<group>"; };
+		D0FCA9482F79B5750036C1A7 /* Lighthouse.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lighthouse.xcodeproj; sourceTree = "<group>"; };
+		D0FCA9652F79B77C0036C1A7 /* Lighthouse.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lighthouse.xcodeproj; sourceTree = "<group>"; };
+		D0FCA9A82F79D0BC0036C1A7 /* Lighthouse.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lighthouse.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -29,6 +37,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0424EC12F7980860005F44A /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0424ED72F79818E0005F44A /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D051151B2F7AC5E20045E30D /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D05115612F7B20B80045E30D /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D07A43EF2F798049006CB528 = {
 			isa = PBXGroup;
 			children = (
@@ -42,6 +70,26 @@
 			children = (
 				D07A43F82F798049006CB528 /* Lighthouse.app */,
 			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FCA9162F798F6A0036C1A7 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FCA94D2F79B5750036C1A7 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FCA96A2F79B77C0036C1A7 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FCA9AE2F79D0BC0036C1A7 /* Products */ = {
+			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
 		};
@@ -91,12 +139,47 @@
 			knownRegions = (
 				en,
 				Base,
+				cs,
 			);
 			mainGroup = D07A43EF2F798049006CB528;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D07A43F92F798049006CB528 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D051151B2F7AC5E20045E30D /* Products */;
+					ProjectRef = D05115162F7AC5E20045E30D /* Lighthouse.xcodeproj */;
+				},
+				{
+					ProductGroup = D0FCA9AE2F79D0BC0036C1A7 /* Products */;
+					ProjectRef = D0FCA9A82F79D0BC0036C1A7 /* Lighthouse.xcodeproj */;
+				},
+				{
+					ProductGroup = D0FCA96A2F79B77C0036C1A7 /* Products */;
+					ProjectRef = D0FCA9652F79B77C0036C1A7 /* Lighthouse.xcodeproj */;
+				},
+				{
+					ProductGroup = D05115612F7B20B80045E30D /* Products */;
+					ProjectRef = D05115572F7B20B80045E30D /* Lighthouse.xcodeproj */;
+				},
+				{
+					ProductGroup = D0FCA94D2F79B5750036C1A7 /* Products */;
+					ProjectRef = D0FCA9482F79B5750036C1A7 /* Lighthouse.xcodeproj */;
+				},
+				{
+					ProductGroup = D0FCA9162F798F6A0036C1A7 /* Products */;
+					ProjectRef = D0FCA9122F798F6A0036C1A7 /* Lighthouse.xcodeproj */;
+				},
+				{
+					ProductGroup = D0424EC12F7980860005F44A /* Products */;
+					ProjectRef = D0424EBF2F7980860005F44A /* Lighthouse.xcodeproj */;
+				},
+				{
+					ProductGroup = D0424ED72F79818E0005F44A /* Products */;
+					ProjectRef = D0424ED42F79818E0005F44A /* Lighthouse.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D07A43F72F798049006CB528 /* Lighthouse */,
@@ -250,15 +333,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lighthouse/Lighthouse.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 32UC9737VJ;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Lighthouse needs to control Spotify/Music to show Now Playing and playback controls.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Lighthouse uses your calendar to show today's next event.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -282,15 +368,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lighthouse/Lighthouse.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 32UC9737VJ;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Lighthouse needs to control Spotify/Music to show Now Playing and playback controls.";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Lighthouse uses your calendar to show today's next event.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
