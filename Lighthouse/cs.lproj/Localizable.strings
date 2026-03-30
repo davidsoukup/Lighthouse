@@ -1,0 +1,210 @@
+"app.name" = "Lighthouse";
+"common.enabled" = "Zapnuto";
+"common.disabled" = "Vypnuto";
+"common.na" = "N/A";
+"common.pause" = "Pozastavit";
+"common.start" = "Spustit";
+"common.resume" = "Pokračovat";
+"common.reset" = "Reset";
+"common.value" = "Hodnota";
+"common.music" = "Hudba";
+
+"language.system" = "Systém";
+"language.english" = "English";
+"language.czech" = "Čeština";
+
+"hotkey.mode.replace_spotlight" = "Nahradit Spotlight";
+"hotkey.mode.custom" = "Vlastní";
+"hotkey.mode.none" = "Bez zkratky";
+"hotkey.modifier.command" = "Command";
+"hotkey.modifier.option" = "Option";
+"hotkey.modifier.control" = "Control";
+"hotkey.modifier.shift" = "Shift";
+"hotkey.key" = "Klávesa";
+"hotkey.press_any_key" = "Stiskni libovolnou klávesu...";
+"hotkey.set_key" = "Nastavit klávesu";
+
+"permission.allowed" = "Povoleno";
+"permission.not_allowed" = "Nepovoleno";
+"permission.not_required_now" = "Teď není potřeba";
+"permission.not_requested" = "Ještě nevyžádáno";
+"permission.checking" = "Kontroluji...";
+
+"settings.key.deleted" = "Klíč byl smazán.";
+"settings.key.empty" = "Zadej API klíč.";
+"settings.key.saved" = "Klíč byl uložen.";
+"settings.key.save_failed" = "Uložení klíče se nepodařilo.";
+"settings.permissions.reset.success.prefix" = "Oprávnění resetována pro";
+"settings.permissions.reset.success.suffix" = "Pro nové dotazy zkus akce spustit znovu.";
+"settings.permissions.reset.failed" = "Reset oprávnění selhal pro jednu nebo více služeb.";
+
+"launcher.media.allow_prefix" = "Povol";
+"launcher.media.allow_suffix" = "přístup";
+"launcher.media.not_playing" = "Nic nehraje";
+"launcher.micro_apps" = "Micro apps";
+"launcher.section.utility" = "Utility";
+"launcher.section.system" = "System";
+"launcher.section.applications" = "Aplikace";
+"launcher.section.files" = "Soubory";
+"launcher.section.micro_apps" = "Micro apps";
+"launcher.section.web" = "Web";
+
+"calendar.today" = "Dnes";
+"calendar.tomorrow" = "Zítra";
+"calendar.all_day" = "Celý den";
+"calendar.access_needed" = "Je potřeba přístup ke kalendáři";
+"calendar.access_denied" = "Přístup ke kalendáři zamítnut";
+"calendar.untitled_event" = "Událost bez názvu";
+"calendar.no_upcoming_events" = "Žádné nadcházející události";
+
+"search.result.web" = "Hledat na webu";
+
+"web.title" = "Web";
+"web.no_results" = "Žádné výsledky.";
+"web.searched_prefix" = "Web hledání";
+
+"microapp.ai_not_connected" = "AI zatím není připojené.\nPoužij /timer, /stopwatch, /storage nebo /settings.";
+"microapp.opening_settings" = "Otevírám nastavení.";
+"microapp.unknown" = "Neznámá micro app. Otevři /settings pro správu funkcí.";
+"microapp.help" = "Dostupné micro apps:\n\n/storage  – využití disku\n/cpu      – využití CPU\n/memory   – využití paměti\n/uptime   – uptime systému\n/stopwatch – stopky\n/timer    – odpočet (např. 5m, 90s, 1:30)\n/settings – otevře okno Nastavení";
+
+"microapp.invalid_input" = "Neplatný vstup";
+"microapp.timer.invalid_help" = "Zkus `/timer 5m`, `/timer 90s` nebo `/timer 1:30`.";
+"microapp.status" = "Stav";
+
+"microapp.settings.desc" = "Otevřít nastavení";
+"microapp.storage.desc" = "Využití disku";
+"microapp.cpu.desc" = "Využití CPU";
+"microapp.memory.desc" = "Využití paměti";
+"microapp.uptime.desc" = "Uptime systému";
+"microapp.stopwatch.desc" = "Stopky";
+"microapp.timer.desc" = "Odpočet";
+"microapp.timer.placeholder" = "Délka (např. 5m, 1:30, 90s)";
+
+"microapp.storage.title" = "Disk";
+"microapp.storage.used" = "využito";
+
+"microapp.cpu.title" = "CPU";
+"microapp.cpu.subtitle" = "Využití systému";
+"microapp.cpu.user" = "Uživatel";
+"microapp.cpu.system" = "Systém";
+"microapp.cpu.idle" = "Nečinné";
+
+"microapp.memory.title" = "Paměť";
+"microapp.memory.subtitle" = "Přehled RAM";
+"microapp.memory.used" = "Využito";
+"microapp.memory.free" = "Volné";
+"microapp.memory.total" = "Celkem";
+
+"microapp.uptime.title" = "Uptime";
+"microapp.uptime.subtitle" = "Doba běhu";
+"microapp.uptime.running" = "Běží";
+"microapp.uptime.load" = "Zátěž";
+
+"microapp.stopwatch.title" = "Stopky";
+"microapp.stopwatch.running" = "Běží";
+"microapp.stopwatch.paused" = "Pozastaveno";
+"microapp.stopwatch.ready" = "Připraveno";
+
+"microapp.timer.title" = "Odpočet";
+"microapp.timer.finished" = "Odpočet dokončen";
+"microapp.timer.finished.body" = "Odpočet skončil.";
+
+"onboarding.feature.privacy.title" = "Privacy First";
+"onboarding.feature.privacy.description" = "Neshromažďujeme žádná osobní data. Vše zůstává na tvém Macu.";
+"onboarding.feature.apps.title" = "Rychlé hledání aplikací";
+"onboarding.feature.apps.description" = "Najdi a spusť aplikace během milisekund z jednoho launcheru.";
+"onboarding.feature.files.title" = "Rychlé hledání souborů";
+"onboarding.feature.files.description" = "Hledej lokální soubory bez opuštění klávesnice.";
+"onboarding.feature.web.title" = "Webové hledání";
+"onboarding.feature.web.description" = "Spouštěj webové hledání přímo ze stejného launcheru.";
+"onboarding.feature.micro.title" = "Micro Apps";
+"onboarding.feature.micro.description" = "Používej rychlé nástroje jako timer, CPU, memory a další.";
+"onboarding.feature.hotkey.title" = "Globální zkratka";
+"onboarding.feature.hotkey.description" = "Otevři Lighthouse odkudkoli jednou zkratkou.";
+"onboarding.feature.native.title" = "Čistě Swift Native";
+"onboarding.feature.native.description" = "Nativně pro macOS s lehkou stopou.";
+
+"onboarding.how.search.title" = "Hledej appky a soubory okamžitě";
+"onboarding.how.search.description" = "Začni psát a najdeš aplikace, soubory i výsledky bez opuštění klávesnice.";
+"onboarding.how.slash.title" = "Používej slash micro apps";
+"onboarding.how.slash.description" = "Spouštěj micro apps jako /settings, /timer, /stopwatch a další z jednoho vstupu.";
+"onboarding.how.builtin.title" = "Otevírej vestavěné micro apps";
+"onboarding.how.builtin.description" = "Používej fokusované nástroje přímo v launcheru pro rychlé úkoly.";
+"onboarding.how.global.title" = "Otevři odkudkoli";
+"onboarding.how.global.description" = "Použij globální zkratku a otevři Lighthouse kdykoli.";
+
+"Language" = "Jazyk";
+"Open System Settings" = "Otevřít Nastavení systému";
+"Show Google Meet button in calendar panel" = "Zobrazit tlačítko Google Meet v kalendář panelu";
+"Timer finished" = "Odpočet dokončen";
+"Settings" = "Nastavení";
+"Manage app behavior, integrations, and keys." = "Spravuj chování aplikace, integrace a klíče.";
+"API KEYS & INTEGRATIONS" = "API KLÍČE A INTEGRACE";
+"OPTIONS" = "MOŽNOSTI";
+"Brave Search API" = "Brave Search API";
+"Each user stores their own API key locally on this Mac." = "Každý uživatel ukládá vlastní API klíč lokálně na tomto Macu.";
+"Change key" = "Změnit klíč";
+"Delete" = "Smazat";
+"Save" = "Uložit";
+"Cancel" = "Zrušit";
+"Panels" = "Panely";
+"Enable or disable top panels in the main launcher window." = "Zapni nebo vypni horní panely v hlavním launcher okně.";
+"Show media panel" = "Zobrazit media panel";
+"Show calendar panel" = "Zobrazit kalendář panel";
+"Appearance" = "Vzhled";
+"Change the background tint of the main launcher/search window." = "Změň barevný odstín pozadí hlavního vyhledávacího okna.";
+"Window blur" = "Rozmazání okna";
+"Window transparency" = "Průhlednost okna";
+"Shortcut" = "Zkratka";
+"Choose how Lighthouse opens from keyboard." = "Zvol, jak se Lighthouse otevírá z klávesnice.";
+"Using \u{2318} + Space" = "Používá se \u{2318} + Mezerník";
+"Disable Spotlight shortcut in macOS to avoid conflict." = "Vypni Spotlight zkratku v macOS, aby nevznikal konflikt.";
+"Modifier" = "Modifikátor";
+"Global shortcut is disabled." = "Globální zkratka je vypnutá.";
+"Permissions" = "Oprávnění";
+"Used for media controls, timer notifications, and calendar events." = "Používá se pro ovládání médií, upozornění timeru a kalendářní události.";
+"Notifications" = "Oznámení";
+"Automation (Music/Spotify)" = "Automatizace (Music/Spotify)";
+"Needed for play/pause, next/previous track, and now playing info." = "Potřebné pro play/pause, další/předchozí skladbu a now playing informace.";
+"Calendar" = "Kalendář";
+"Used to show your upcoming event in the calendar panel." = "Používá se k zobrazení nadcházející události v kalendář panelu.";
+"Reset permissions" = "Reset oprávnění";
+"Factory Reset" = "Tovární reset";
+"Restore the app to defaults and show onboarding again." = "Obnov aplikaci do výchozího stavu a znovu zobraz onboarding.";
+"Reset to factory settings" = "Obnovit do továrního nastavení";
+"Reset the app to factory settings?" = "Obnovit aplikaci do továrního nastavení?";
+"This will delete the Brave API key, restore default options, and show the welcome window again." = "Tohle smaže Brave API klíč, obnoví výchozí volby a znovu zobrazí welcome okno.";
+"Lighthouse" = "Lighthouse";
+"Lightweight, pure Swift spotlight alternative for macOS." = "Lehká, čistě Swift alternativa Spotlightu pro macOS.";
+"Continue" = "Pokračovat";
+"Initial Setup" = "Úvodní nastavení";
+"Choose permissions and shortcut behavior now. You can change this anytime in Settings." = "Nastav oprávnění a chování zkratky teď. Kdykoliv to můžeš změnit v Nastavení.";
+"PERMISSIONS" = "OPRÁVNĚNÍ";
+"Used for timer completion alerts." = "Používá se pro upozornění po dokončení timeru.";
+"SHORTCUT" = "ZKRATKA";
+"Using Cmd + Space" = "Používá se Cmd + Mezerník";
+"You can change this anytime in" = "Tohle můžeš kdykoliv změnit v";
+"Not now" = "Teď ne";
+"How Lighthouse Works" = "Jak Lighthouse funguje";
+"Type, run, and stay in flow. Lighthouse combines Spotlight-style search, chat-like history, and focused micro apps." = "Piš, spouštěj a zůstaň ve flow. Lighthouse spojuje Spotlight styl hledání, chat-like historii a fokusované micro apps.";
+"Got it, let me try it" = "Jasně, jdu to zkusit";
+"Back" = "Zpět";
+"Micro apps" = "Micro apps";
+"Show micro apps" = "Zobrazit micro apps";
+"Enable" = "Povolit";
+"Open" = "Otevřít";
+"Join Google Meet" = "Připojit Google Meet";
+"HISTORY" = "HISTORIE";
+"Delete history" = "Smazat historii";
+"theme.charcoal" = "Charcoal";
+"theme.slate" = "Slate";
+"theme.cobalt" = "Cobalt";
+"theme.indigo" = "Indigo";
+"theme.emerald" = "Emerald";
+"theme.mint" = "Mint";
+"theme.amber" = "Amber";
+"theme.orange" = "Orange";
+"theme.rose" = "Rose";
+"theme.violet" = "Violet";
+"Using ⌘ + Space" = "Používá se ⌘ + Mezerník";

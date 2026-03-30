@@ -1,0 +1,210 @@
+"app.name" = "Lighthouse";
+"common.enabled" = "Enabled";
+"common.disabled" = "Disabled";
+"common.na" = "N/A";
+"common.pause" = "Pause";
+"common.start" = "Start";
+"common.resume" = "Resume";
+"common.reset" = "Reset";
+"common.value" = "Value";
+"common.music" = "Music";
+
+"language.system" = "System";
+"language.english" = "English";
+"language.czech" = "Čeština";
+
+"hotkey.mode.replace_spotlight" = "Replace Spotlight";
+"hotkey.mode.custom" = "Custom";
+"hotkey.mode.none" = "No Shortcut";
+"hotkey.modifier.command" = "Command";
+"hotkey.modifier.option" = "Option";
+"hotkey.modifier.control" = "Control";
+"hotkey.modifier.shift" = "Shift";
+"hotkey.key" = "Key";
+"hotkey.press_any_key" = "Press any key...";
+"hotkey.set_key" = "Set key";
+
+"permission.allowed" = "Allowed";
+"permission.not_allowed" = "Not allowed";
+"permission.not_required_now" = "Not required now";
+"permission.not_requested" = "Not requested";
+"permission.checking" = "Checking...";
+
+"settings.key.deleted" = "Key deleted.";
+"settings.key.empty" = "Please enter an API key.";
+"settings.key.saved" = "Key saved.";
+"settings.key.save_failed" = "Failed to save key.";
+"settings.permissions.reset.success.prefix" = "Permissions reset for";
+"settings.permissions.reset.success.suffix" = "Trigger actions again to re-prompt.";
+"settings.permissions.reset.failed" = "Permission reset failed for one or more services.";
+
+"launcher.media.allow_prefix" = "Allow";
+"launcher.media.allow_suffix" = "access";
+"launcher.media.not_playing" = "Not playing";
+"launcher.micro_apps" = "Micro apps";
+"launcher.section.utility" = "Utility";
+"launcher.section.system" = "System";
+"launcher.section.applications" = "Applications";
+"launcher.section.files" = "Files";
+"launcher.section.micro_apps" = "Micro apps";
+"launcher.section.web" = "Web";
+
+"calendar.today" = "Today";
+"calendar.tomorrow" = "Tomorrow";
+"calendar.all_day" = "All day";
+"calendar.access_needed" = "Calendar access needed";
+"calendar.access_denied" = "Calendar access denied";
+"calendar.untitled_event" = "Untitled event";
+"calendar.no_upcoming_events" = "No upcoming events";
+
+"search.result.web" = "Search the web";
+
+"web.title" = "Web";
+"web.no_results" = "No results.";
+"web.searched_prefix" = "Web searched";
+
+"microapp.ai_not_connected" = "AI is not connected yet.\nUse /timer, /stopwatch, /storage, or /settings.";
+"microapp.opening_settings" = "Opening settings.";
+"microapp.unknown" = "Unknown micro app. Open /settings to manage features.";
+"microapp.help" = "Available micro apps:\n\n/storage  – disk usage\n/cpu      – CPU usage\n/memory   – memory usage\n/uptime   – system uptime\n/stopwatch – stopwatch\n/timer    – countdown (e.g. 5m, 90s, 1:30)\n/settings – open Settings window";
+
+"microapp.invalid_input" = "Invalid input";
+"microapp.timer.invalid_help" = "Try `/timer 5m`, `/timer 90s`, or `/timer 1:30`.";
+"microapp.status" = "Status";
+
+"microapp.settings.desc" = "Open settings";
+"microapp.storage.desc" = "Disk usage";
+"microapp.cpu.desc" = "CPU usage";
+"microapp.memory.desc" = "Memory usage";
+"microapp.uptime.desc" = "System uptime";
+"microapp.stopwatch.desc" = "Stopwatch";
+"microapp.timer.desc" = "Countdown timer";
+"microapp.timer.placeholder" = "Duration (e.g. 5m, 1:30, 90s)";
+
+"microapp.storage.title" = "Disk";
+"microapp.storage.used" = "used";
+
+"microapp.cpu.title" = "CPU";
+"microapp.cpu.subtitle" = "System usage";
+"microapp.cpu.user" = "User";
+"microapp.cpu.system" = "System";
+"microapp.cpu.idle" = "Idle";
+
+"microapp.memory.title" = "Memory";
+"microapp.memory.subtitle" = "RAM overview";
+"microapp.memory.used" = "Used";
+"microapp.memory.free" = "Free";
+"microapp.memory.total" = "Total";
+
+"microapp.uptime.title" = "Uptime";
+"microapp.uptime.subtitle" = "Running time";
+"microapp.uptime.running" = "Running";
+"microapp.uptime.load" = "Load";
+
+"microapp.stopwatch.title" = "Stopwatch";
+"microapp.stopwatch.running" = "Running";
+"microapp.stopwatch.paused" = "Paused";
+"microapp.stopwatch.ready" = "Ready";
+
+"microapp.timer.title" = "Timer";
+"microapp.timer.finished" = "Timer Finished";
+"microapp.timer.finished.body" = "Countdown is complete.";
+
+"onboarding.feature.privacy.title" = "Privacy First";
+"onboarding.feature.privacy.description" = "No personal data is collected. Everything stays on your Mac.";
+"onboarding.feature.apps.title" = "Instant App Search";
+"onboarding.feature.apps.description" = "Find and launch apps in milliseconds from one launcher bar.";
+"onboarding.feature.files.title" = "Quick File Lookup";
+"onboarding.feature.files.description" = "Search local files quickly without leaving your keyboard flow.";
+"onboarding.feature.web.title" = "Web Search";
+"onboarding.feature.web.description" = "Run web searches directly from the same launcher bar.";
+"onboarding.feature.micro.title" = "Micro Apps";
+"onboarding.feature.micro.description" = "Use quick tools like timer, CPU, memory, and more.";
+"onboarding.feature.hotkey.title" = "Global Hotkey";
+"onboarding.feature.hotkey.description" = "Open Lighthouse instantly from anywhere with one shortcut.";
+"onboarding.feature.native.title" = "Pure Swift Native";
+"onboarding.feature.native.description" = "Built natively for macOS with a lightweight footprint.";
+
+"onboarding.how.search.title" = "Search apps and files instantly";
+"onboarding.how.search.description" = "Start typing to find apps, files, and results without leaving your keyboard.";
+"onboarding.how.slash.title" = "Use slash micro apps";
+"onboarding.how.slash.description" = "Run micro apps like /settings, /timer, /stopwatch, and more from one input.";
+"onboarding.how.builtin.title" = "Open built-in micro apps";
+"onboarding.how.builtin.description" = "Use focused tools inside the launcher for quick tasks and daily workflows.";
+"onboarding.how.global.title" = "Open from anywhere";
+"onboarding.how.global.description" = "Use your global shortcut to bring Lighthouse up anytime.";
+
+"Language" = "Language";
+"Open System Settings" = "Open System Settings";
+"Show Google Meet button in calendar panel" = "Show Google Meet button in calendar panel";
+"Timer finished" = "Timer finished";
+"Settings" = "Settings";
+"Manage app behavior, integrations, and keys." = "Manage app behavior, integrations, and keys.";
+"API KEYS & INTEGRATIONS" = "API KEYS & INTEGRATIONS";
+"OPTIONS" = "OPTIONS";
+"Brave Search API" = "Brave Search API";
+"Each user stores their own API key locally on this Mac." = "Each user stores their own API key locally on this Mac.";
+"Change key" = "Change key";
+"Delete" = "Delete";
+"Save" = "Save";
+"Cancel" = "Cancel";
+"Panels" = "Panels";
+"Enable or disable top panels in the main launcher window." = "Enable or disable top panels in the main launcher window.";
+"Show media panel" = "Show media panel";
+"Show calendar panel" = "Show calendar panel";
+"Appearance" = "Appearance";
+"Change the background tint of the main launcher/search window." = "Change the background tint of the main launcher/search window.";
+"Window blur" = "Window blur";
+"Window transparency" = "Window transparency";
+"Shortcut" = "Shortcut";
+"Choose how Lighthouse opens from keyboard." = "Choose how Lighthouse opens from keyboard.";
+"Using \u{2318} + Space" = "Using \u{2318} + Space";
+"Disable Spotlight shortcut in macOS to avoid conflict." = "Disable Spotlight shortcut in macOS to avoid conflict.";
+"Modifier" = "Modifier";
+"Global shortcut is disabled." = "Global shortcut is disabled.";
+"Permissions" = "Permissions";
+"Used for media controls, timer notifications, and calendar events." = "Used for media controls, timer notifications, and calendar events.";
+"Notifications" = "Notifications";
+"Automation (Music/Spotify)" = "Automation (Music/Spotify)";
+"Needed for play/pause, next/previous track, and now playing info." = "Needed for play/pause, next/previous track, and now playing info.";
+"Calendar" = "Calendar";
+"Used to show your upcoming event in the calendar panel." = "Used to show your upcoming event in the calendar panel.";
+"Reset permissions" = "Reset permissions";
+"Factory Reset" = "Factory Reset";
+"Restore the app to defaults and show onboarding again." = "Restore the app to defaults and show onboarding again.";
+"Reset to factory settings" = "Reset to factory settings";
+"Reset the app to factory settings?" = "Reset the app to factory settings?";
+"This will delete the Brave API key, restore default options, and show the welcome window again." = "This will delete the Brave API key, restore default options, and show the welcome window again.";
+"Lighthouse" = "Lighthouse";
+"Lightweight, pure Swift spotlight alternative for macOS." = "Lightweight, pure Swift spotlight alternative for macOS.";
+"Continue" = "Continue";
+"Initial Setup" = "Initial Setup";
+"Choose permissions and shortcut behavior now. You can change this anytime in Settings." = "Choose permissions and shortcut behavior now. You can change this anytime in Settings.";
+"PERMISSIONS" = "PERMISSIONS";
+"Used for timer completion alerts." = "Used for timer completion alerts.";
+"SHORTCUT" = "SHORTCUT";
+"Using Cmd + Space" = "Using Cmd + Space";
+"You can change this anytime in" = "You can change this anytime in";
+"Not now" = "Not now";
+"How Lighthouse Works" = "How Lighthouse Works";
+"Type, run, and stay in flow. Lighthouse combines Spotlight-style search, chat-like history, and focused micro apps." = "Type, run, and stay in flow. Lighthouse combines Spotlight-style search, chat-like history, and focused micro apps.";
+"Got it, let me try it" = "Got it, let me try it";
+"Back" = "Back";
+"Micro apps" = "Micro apps";
+"Show micro apps" = "Show micro apps";
+"Enable" = "Enable";
+"Open" = "Open";
+"Join Google Meet" = "Join Google Meet";
+"HISTORY" = "HISTORY";
+"Delete history" = "Delete history";
+"theme.charcoal" = "Charcoal";
+"theme.slate" = "Slate";
+"theme.cobalt" = "Cobalt";
+"theme.indigo" = "Indigo";
+"theme.emerald" = "Emerald";
+"theme.mint" = "Mint";
+"theme.amber" = "Amber";
+"theme.orange" = "Orange";
+"theme.rose" = "Rose";
+"theme.violet" = "Violet";
+"Using ⌘ + Space" = "Using ⌘ + Space";
