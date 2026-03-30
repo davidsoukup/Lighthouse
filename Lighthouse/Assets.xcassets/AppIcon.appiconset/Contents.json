@@ -41,6 +41,7 @@
       "size" : "256x256"
     },
     {
+      "filename" : "Icon-iOS-Default-1024x1024@1x.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
